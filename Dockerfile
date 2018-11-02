@@ -2,6 +2,6 @@ From anapsix/alpine-java:latest
 MAINTAINER JoeHu <hushenglang@gmail.com>
 
 WORKDIR /app
-COPY ./target/RestApp1-0.1.jar /app
+COPY ./target/RestApp1-0.3.jar /app
 EXPOSE 8080
-ENTRYPOINT ["java" ,"-jar", "RestApp1-0.1.jar"]
+ENTRYPOINT ["java" ,"-jar", "RestApp1-0.3.jar"]
