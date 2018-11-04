@@ -27,6 +27,6 @@ public class RestApiControllerTest {
     public void testHello() throws Exception {
         String helloEntryPoint = "/api/hello";
         this.mockMvc.perform(get(helloEntryPoint)).andDo(print()).andExpect(status().isOk())
-                .andExpect(content().string(containsString("hello-1")));
+                .andExpect(content().string(containsString("hello-2")));
     }
 }

@@ -10,6 +10,6 @@ public class RestApiController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "hello-1";
+        return "hello-2";
     }
 }
